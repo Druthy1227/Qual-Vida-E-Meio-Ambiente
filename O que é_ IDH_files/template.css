@@ -1,0 +1,776 @@
+body{
+	margin:0px;
+	padding:0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size:12pt;
+        background-image:url(../../../images/template/bg_geral.gif);
+}
+
+#geral{
+	margin:0 auto;
+	width:1000px;
+}
+
+#corpo{	
+	width:1000px;
+        position:absolute;
+        *position:absolute;
+        _position:absolute;
+	background-image:url(../../../images/template/bg_corpo.png);
+	background-repeat:repeat-y;
+	float:left;
+}
+
+#barra_azul_topo{
+	width:988px;
+	height:30px;
+	background-image:url(../../../images/template/barra_azul_topo.png);
+}
+
+#topo{
+     width:973px;
+}
+/*********** Início Busca ***********/
+
+#busca{
+     position:absolute;
+     float:right;
+     margin-right:26px;
+     margin-left:790px;
+     *margin-left:780px;
+     _margin-left:780px;
+     margin-top:4px;
+     *margin-top:3px;
+     _margin-top:3px;
+}
+#busca .button{
+     position:absolute;
+     float:right;
+     margin-right:10px;
+     margin-left:3px;
+}
+.componentheading{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size:14pt;
+        font-weight:bold;
+        color:#79a0b3;
+        margin-top:3px;
+        margin-bottom:20px;
+        padding-bottom:3px;
+        border-bottom:double 3px #79a0b3;
+}
+/*
+//
+//CUSTOM - Wuarli Santos - 26-jan-2011
+//Altera� realizada devido a quebra do layout no internet explorer e firefox.
+//
+*/
+.contentpaneopen fieldset{
+        background-color:#f2f2f2;
+        border:none;
+        width:750px;
+        border-bottom:solid 5px #fff;
+        margin: 0px;
+        margin-right: 2px;
+        margin-left: 2px;
+        padding: 0px;
+        padding-left: 8px;
+        padding-right: 8px;
+}
+/*
+//
+// CUSTOM - Wuarli Santos - 26-jan-2011 - Fim
+//
+*/
+.small{
+        font-weight:bold;
+}
+fieldset a{
+        font-weight:bold;
+        text-decoration:underline;
+}
+#limit{
+        margin-bottom:20px;
+        position:inherit;
+}
+
+/*********** Fim Busca ***********/
+
+#imagem_topo{
+	width:972px;
+	height:86px;
+	background-image:url(../../../images/template/imagem_topo.jpg);
+	margin-left:8px;
+}
+#logo_ipea{
+	background-image:url(../../../images/template/logo_ipea.png);
+	width:126px;
+	height:73px;
+	border:none;
+	margin-left:25px;
+	margin-top:5px;
+	position:absolute;
+        cursor:hand;
+}
+#barra_azul_pe{
+        width:972px;
+	height:9px;
+	background-image:url(../../../images/template/barra_azul_pe.png);
+	margin-left:8px;
+}
+#menu_principal{
+	width:972px;
+	height:27px;
+	background-image:url(../../../images/template/bg_menu.png);
+	background-repeat:repeat-x;
+	margin-left:8px;
+	text-align:center;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#666;
+}
+#menu_principal table{
+	margin-top:5px;	
+}
+#menu_principal ul{
+        position:absolute;
+}
+#menu_principal a{
+	padding-top:5px;
+	text-decoration:none;
+	color:#666;
+}
+#menu_principal a:link{
+	padding-top:5px;
+	text-decoration:none;
+	color:#666;
+}
+#menu_principal a:active{
+	padding-top:5px;
+	text-decoration:none;
+	color:#666;
+}
+#menu_principal a:visited{
+	padding-top:5px;
+	text-decoration:none;
+	color:#666;
+}
+#menu_principal a:hover{
+	padding-top:5px;
+	text-decoration:none;
+	color:#666;
+}
+#menu_lateral_home{
+	width:140px;
+	background-color:#efefef;
+	background-repeat:none;
+	margin-left:-5px;    
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#666;
+        position:absolute;
+        border-top:solid 8px #79a0b3;
+        border-bottom:solid 8px #79a0b3;
+}
+#menu_lateral_home table{
+        border-top:solid 2px #fff;
+}
+#menu_lateral_home td{
+        width:130px;
+        border-bottom:solid 2px #ffffff;
+        padding:5px;
+        padding-left:10px;
+}
+#menu_lateral_home ul{
+        position:absolute;
+        height:100%;
+        padding-bottom:-5px;
+}
+#menu_lateral_home a{
+	width:130px;
+	text-decoration:none;
+	color:#666;
+}
+#menu_lateral_home a:link{
+        width:130px;
+        padding-top:5px;
+	text-decoration:none;
+	color:#666;
+}
+#menu_lateral_home a:active{
+        width:130px;
+        padding-top:5px;
+	text-decoration:none;
+	color:#666;
+}
+#menu_lateral_home a:visited{
+        width:130px;
+	padding-top:5px;
+	text-decoration:none;
+	color:#666;
+}
+#menu_lateral_home a:hover{
+        width:130px;
+	padding-top:5px;
+	text-decoration:none;
+	color:#4d7b92;
+}
+
+/*
+//
+//CUSTOM - Wuarli Santos - 27-jan-2011
+//Altera� realizada devido a quebra do layout no internet explorer e firefox.
+//
+*/
+#menu_lateral_interno{
+	width:140px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#666;
+     position:none; 
+     line-height:25px;
+     margin-left:-5px;
+     float: left;
+}
+/*
+//
+// CUSTOM - Wuarli Santos - 27-jan-2011 - Fim
+//
+*/
+#menu_lateral_interno td .mainlevel{
+        width:100%;
+        padding:5px;
+        background-color:#79a0b3;
+        color:#fff;
+        font-weight:bold;
+}
+#menu_lateral_interno table tr td{
+        width:100%;
+        color:#fff;
+	background-color:#79a0b3;
+        border-bottom:solid 2px #ffffff;
+}
+#menu_lateral_interno table tr div{        
+	color:#666;
+	background-color:#efefef;
+        border-bottom:solid 2px #ffffff;
+}
+#menu_lateral_interno a{
+	width:100%;
+	text-decoration:none;
+	color:#666;
+}
+#menu_lateral_interno a:link{
+        width:100%;
+        padding-top:0px;
+	text-decoration:none;
+	color:#666;
+}
+#menu_lateral_interno a:active{
+        width:100%;
+        padding-top:0px;
+	text-decoration:none;
+	color:#666;
+}
+#menu_lateral_interno a:visited{
+        width:100%;
+	padding-top:0px;
+	text-decoration:none;
+	color:#666;
+}
+#menu_lateral_interno a:hover{
+        width:100%;
+	padding-top:0px;
+	text-decoration:none;
+	color:#4d7b92;
+}
+
+
+#edicao_atual_home{
+        position:absolute;
+        margin-top:270px;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:8pt;
+	color:#666;
+        text-align:center;
+        margin-left: -7px;
+}
+
+#indicador_home{
+        position:absolute;
+        margin-top:505px;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:8pt;
+	color:#666;
+        text-align:center;
+}
+
+#conteudo{
+	padding:35px;        
+        height:100%;
+	clear: both;
+        
+}
+
+/********** Início Destaques Home **************/
+
+
+#destaque_home{
+       position:absolute;
+       margin-left:178px;
+
+}
+#destaque_dir_home{   
+       width:350px;
+       position:absolute;
+       margin-left:578px;
+}
+#destaque_dir_home img{
+       border:0;
+}
+td.contentheadingnoticia_destaque_dir_home{
+       font-weight:bold;
+       color:#004559;
+       padding-bottom:5px;
+}
+.contentpaneopennoticia_destaque_dir_home tr{ 
+        position:absolute;
+        width:183px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size:10pt;
+        padding:0;
+        margin-left:-5px;
+        line-height:18px;
+}
+.contentpaneopennoticia_destaque_dir_home p{ 
+        position:absolute;
+        margin-top:15px;
+        *margin-top:20px;
+        _margin-top:20px;
+}
+#entrevista_home{
+       width:163px;
+       position:absolute;
+       margin-left:762px;
+}
+#entrevista_home img{
+       border:0;
+}
+td.contentheadingnoticia_destaque_entrevista_home{
+       font-weight:bold;
+       color:#004559;
+       padding-bottom:5px;
+}
+.contentpaneopennoticia_destaque_entrevista_home tr{ 
+        position:absolute;
+        width:183px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size:10pt;
+        padding:0;
+        margin-left:-5px;
+        line-height:18px;
+}
+.contentpaneopennoticia_destaque_entrevista_home p{ 
+        position:absolute;
+        margin-top:15px;
+        *margin-top:20px;
+        _margin-top:20px;
+}
+#col_meio{
+      height:1080px;
+}
+
+#materias_home {
+    height: 120px;
+    margin-left: 180px;
+    margin-top: 281px;
+    position: absolute;
+    width: 750px;
+}
+#materias_home img{
+       border:0;
+}
+#materias_esq{
+       float:left;
+}
+#materias_dir{
+       float:right;
+       margin-left:36px;
+}
+#hr{
+       position:absolute;
+       margin-left:36px;
+       margin-top:78px;
+       *margin-top:84px;
+       _margin-top:84px;
+       width:343px;
+       border:1px dashed #bac8d9;
+}
+td.contentheadingnoticia_destaque_1_meio{
+       position:absolute;       
+       width:750px; 
+       font-weight:bold;
+       color:#004559;
+       padding-bottom:48px;
+       margin-top:-13px;
+}
+.contentpaneopennoticia_destaque_1_meio tr{ 
+        position:absolute;
+        width:750px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size:10pt;
+        padding:0;
+        margin-top:-67px;
+        *margin-top:-77px;
+        _margin-top:-77px;
+        margin-left:120px;
+        line-height:16px;
+}
+.contentpaneopennoticia_destaque_1_meio p{
+        position:absolute;        
+        width:261px;
+        margin-top:0px;
+        *margin-top:30px;
+        _margin-top:30px;
+}
+.banneritemdestaque_2_meio{
+       position:absolute;
+       margin-top:0px;
+       margin-left:36px;
+}
+td.contentheadingnoticia_destaque_2_meio{
+       position:absolute;
+       font-weight:bold;
+       color:#004559;
+       padding-bottom:10px;
+       margin-top:0px;
+}
+.contentpaneopennoticia_destaque_2_meio tr{ 
+        position:absolute;
+        width:230px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size:10pt;
+        padding:0;
+        margin-top:-7px;
+        margin-left:155px;
+        line-height:16px;
+        margin-bottom:-5px;
+}
+.contentpaneopennoticia_destaque_2_meio p{
+        position:absolute;        
+        width:230px;
+        margin-top:10px;
+        *margin-top:15px;
+        _margin-top:15px;
+}
+.banneritemdestaque_3_meio{
+       position:absolute;
+       margin-top:18px;
+       *margin-top:25px;
+       _margin-top:25px;
+}
+td.contentheadingnoticia_destaque_3_meio{
+       position:absolute;
+       font-weight:bold;
+       color:#004559;
+       padding-bottom:20px;
+       margin-top:-28px;
+       *margin-top:-22px;
+       _margin-top:-22px;
+}
+.contentpaneopennoticia_destaque_3_meio tr{ 
+        position:absolute;
+        width:261px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size:10pt;
+        padding:0;
+        margin-top:41px;
+        *margin-top:23px;
+        _margin-top:23px;
+        margin-left:120px;
+        line-height:16px;
+}
+.contentpaneopennoticia_destaque_3_meio p{
+        position:absolute;        
+        width:261px;
+        margin-top:-15px;
+        *margin-top:20px;
+        _margin-top:20px;
+}
+.banneritemdestaque_4_meio{
+       position:absolute;
+       margin-top:84px;
+       *margin-top:97px;
+       _margin-top:97px;
+       margin-left:36px;
+}
+td.contentheadingnoticia_destaque_4_meio{
+       position:absolute;
+       font-weight:bold;
+       color:#004559;
+       padding-bottom:20px;
+       margin-top:-11px;
+       *margin-top:-13px;
+       _margin-top:-13px;
+}
+.contentpaneopennoticia_destaque_4_meio tr{ 
+        position:absolute;
+        width:235px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size:10pt;
+        padding:0;
+        margin-top:96px;
+        *margin-top:95px;
+        _margin-top:95px;
+        margin-left:155px;
+        line-height:16px;
+}
+.contentpaneopennoticia_destaque_4_meio p{
+        position:absolute;        
+        width:230px;
+        margin-top:0px;
+        *margin-top:15px;
+        _margin-top:15px;
+}
+
+
+/********** Fim Destaques Home **************/
+
+
+/********** Início Artigos Home *************/
+
+#artigos_home{
+       position:absolute;
+       width:755px;
+       margin-top:490px;
+       margin-left:165px;
+}
+#artigos_esq{
+       float:left;
+       width:750px;
+       color:#004559;
+       font-family: Verdana, Arial, Helvetica, sans-serif;
+       font-size:10pt;
+       margin-top:20px;
+}
+#artigos_dir{
+       float:right;
+       width:366px;
+       color:#004559;
+       font-family: Verdana, Arial, Helvetica, sans-serif;
+       font-size:10pt;
+       margin-top:20px;
+}
+td.contentheadingartigo1_home, td.contentheadingartigo2_home, td.contentheadingartigo3_home, td.contentheadingartigo4_home{
+       font-weight:bold;
+}
+#artigo1_home, #artigo2_home, #artigo3_home, #artigo4_home{
+       height:51px;
+}
+#artigo1_home, #artigo2_home{
+       margin-bottom:30px;
+}
+td.contentpaneopenartigos_esq_home{
+       position:absolute;
+       float:left;
+       width:366px;
+       margin-top:-30px;
+       padding-bottom:40px;
+       height:100%;
+}
+.contentpaneopenartigos_esq_home tr{
+       position:absolute;
+       float:left;
+       width:366px;
+       height:100%;
+}
+td.contentpaneopenartigos_dir_home{
+       float:right;
+       width:366px;
+       height:100%;
+}
+.contentpaneopenartigos_dir_home tr{
+       position:absolute;
+       float:right;
+       width:366px;
+       height:100%;
+}
+
+
+/********** Fim Artigos Home *************/
+
+
+/********** Início Artigos ***********/
+
+
+.contentheading{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size:14pt;
+        font-weight:bold;
+        color:#79a0b3;
+        margin-bottom:20px;
+        padding-bottom:3px;
+        border-bottom:double 3px #79a0b3;
+}
+#artigo{
+	float:right;
+	width:755px;
+        height:100%;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size:10pt;
+        color:#464646;
+        margin-right:10px;
+        margin-top:-8px;
+}
+.contentheading td{
+        border:solid 10px #999;
+}
+td.buttonheading{
+        padding:0;
+        border-collapse:collapse;
+        border-bottom:double 3px #79a0b3;
+}
+td.buttonheading img{
+	border:none;
+        padding-left:-5px;
+}
+
+/********** Fim Artigos ***********/
+
+.edicaoanterior {
+	float:left;
+	padding:5px;
+	background:#F3F3F3;
+	border: 1px solid #CCC;
+	margin:2px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:small;
+	color:#000;
+	text-align:center;
+	line-height:18px
+}
+a:link{
+       color:#004559;
+       text-decoration:none;
+}
+a:active{
+       color:#004559;
+       text-decoration:none;
+}
+a:visited{
+       color:#004559;
+       text-decoration:none;
+}
+a:hover{
+      color:#004559;
+      text-decoration:underline;
+}
+
+#rodape{
+       background-image:url(../../../images/template/rodape.png);
+       background-repeat:no-repeat;
+       position:absolute;
+       width:988px;
+       height:54px;
+       clear:both;
+       bottom:0;
+       left:0;
+       margin-bottom:-59px;
+       padding-top:5px;
+       font-family: Verdana, Arial, Helvetica, sans-serif;
+       font-size:7.5pt;
+       color:#645f5f;
+}
+
+/******** Início JForms **********/
+
+.jform{
+       color:#464646;
+       font-family: Verdana, Arial, Helvetica, sans-serif;
+       font-size:14pt;
+}
+.jform label{
+       text-align:right;
+}
+.jform input{
+       text-align:left;
+}
+.titulo_formulario{
+        width:750px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size:14pt;
+        font-weight:bold;
+        color:#79a0b3;
+        margin-bottom:20px;
+        position:absolute;
+        margin-top:-24px;
+        margin-left:-10px;
+        padding-bottom:3px;
+        border-bottom:double 3px #79a0b3;
+}
+
+/******** Fim JForms **********/
+
+/***** Início Paginação *******/
+
+/*
+//
+//CUSTOM - Wuarli Santos - 26-jan-2011
+//Altera� feita devido a quebra do layout no internet explorer e no firefox.
+//
+*/
+.pagination{
+       position:none;
+       background: #E4E4E4;
+       width:750px;
+       margin-top:10px;
+       padding-top:10px;
+       padding-bottom:10px;
+       padding-left: 8px;
+       padding-right: 8px;
+       margin-bottom:35px;
+       margin-left:0px;
+       margin-right: 0px;
+       float: left;
+}
+/*
+//
+// CUSTOM - Wuarli Santos - 26-jan-2011 - Fim
+//
+*/
+
+.contentpaneopen tr td div .pagination span{
+	padding:15px;
+	color:#AAA;
+	width:2000px;
+        position:relative;
+}
+
+.contentpaneopen tr td div .pagination a{
+	padding:10px;
+	font-weight:bold;
+	text-decoration:none;
+        position:relative;
+}
+
+
+/***** Fim Paginação *******/
+
+/** Início Estilo Tabelas **/
+
+#tabela{
+       background-color: #f2f6fa;
+       border: 1px dashed #bac8d9;
+       padding:10px;
+}
+#tabela td{
+       background-color: #f2f6fa;
+       border: 1px dashed #bac8d9;
+       padding:10px;
+}
+table#tabela{     
+       border-collapse:collapse;
+}
+
+
+/** Fim Estilo Tabelas **/
